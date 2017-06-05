@@ -26,4 +26,14 @@ class AdminController extends Controller
     {
         return view('admin.home');
     }
+
+    public function page()
+    {
+        return view('admin.admintest');
+    }
+
+    public function otherPage()
+    {
+        return view('admin.admintestex');
+    }
 }

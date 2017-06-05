@@ -21,4 +21,14 @@ class EditorController extends Controller
     {
     	return view('admin.editor');
     }
+
+    public function page()
+    {
+        return view('admin.editortest');
+    }
+
+    public function otherPage()
+    {
+        return view('admin.editortestex');
+    }
 }
