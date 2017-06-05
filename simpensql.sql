@@ -111,7 +111,7 @@ CREATE TABLE `users` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -120,7 +120,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Dyas','dyas@real.com','$2y$10$lNjm2XmXOui4DUyAHOIyAOwb7JQXR8dzXmB4UTztSC6/OH7ttADUS','BE2jFWlxhcfZQLrGRACVpv6SXiBVkDlInJgkCLf0Hb0doSEDPqBDarOQbgrs','2017-05-31 01:55:57','2017-05-31 01:55:57');
+INSERT INTO `users` VALUES (1,'Dyas','dyas@real.com','$2y$10$lNjm2XmXOui4DUyAHOIyAOwb7JQXR8dzXmB4UTztSC6/OH7ttADUS','iJ91paROGYbLGiZGLW2JvMIkZ3lI8bWmQquInd1WYEwpbATgYNuKdUz5gSEY','2017-05-31 01:55:57','2017-05-31 01:55:57'),(2,'New User','user@aclblog.com','$2y$10$PYLskWTaXsFbcuN8HSkNK.48UT.M710KJ/Sa9KoVsKyqL9/zAvTtG','djvxAEithqRnjnb3nV9y2g7IZ6rrUIDJvlfP9lOTsKyuKz3mSWPyRp0B2VPG','2017-06-04 19:50:23','2017-06-04 19:50:23');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -133,4 +133,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-02 15:14:07
+-- Dump completed on 2017-06-05  9:51:14
