@@ -20,7 +20,12 @@ Auth::routes();
 Route::GET('home', 'HomeController@index')->name('home');
 
 Route::GET('admin/home','AdminController@index');
+Route::GET('admin/pagead','AdminController@index');
+Route::GET('admin/pagexad','AdminController@index');
+
 Route::GET('admin/editor','EditorController@index');
+Route::GET('admin/pageed','AdminController@index');
+Route::GET('admin/pagexed','AdminController@index');
 
 Route::GET('admin','Admin\LoginController@showLoginForm')->name('admin.login');
 Route::POST('admin','Admin\LoginController@login');
